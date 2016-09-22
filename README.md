@@ -1,2 +1,2 @@
 # henrynine.github.io
-Repo for personal website
+This is the repo for my personal website I'm making to learn web development.
