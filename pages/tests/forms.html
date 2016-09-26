@@ -15,16 +15,20 @@
 
   <form action="process.php" method="post">
 
-    <input type="text" value="username">
+    <p>Username:<input type="text" name="username"></p>
 
-    <input type="password" value="password">
+    <p>Password:<input type="password" name="password"></p>
 
-    <select>
+    <p>Option<select name = "options">
       <option selected>Default Option</option>
       <option>Option 1</option>
       <option>Option 2</option>
       <option>Option 3</option>
-    </select>
+    </select></p>
+
+    <p>Comments: </p>
+    <p><textarea name = "comments" rows="5" columns="20">Your Comments
+    </textarea></p>
 
   </form>
 
