@@ -1,5 +1,9 @@
+body {
+  color: rgb(207, 80, 53)
+}
+
 p {
-  color: red;
+  font-family: helvetica;
 }
 
 a {
