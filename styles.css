@@ -2,10 +2,25 @@ body {
   background-color: rgba(204, 76, 49, 0.94)
 }
 
+h1 {
+  font-family: helvetica;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: helvetica;
+}
+
+h3 {
+  font-family: helvetica;
+}
+
 p {
   font-family: helvetica;
 }
 
 a {
   color: rgb(218, 194, 34);
+  text-decoration: none;
 }
