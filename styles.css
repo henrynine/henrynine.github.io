@@ -1,23 +1,13 @@
 body {
-  background-color: rgba(204, 76, 49, 0.94)
+  background-color: rgba(204, 76, 49, 0.94);
+  font-family: helvetica, arial;
 }
 
 h1 {
-  font-family: helvetica;
   text-align: center;
-  font-size: 36px;
-}
-
-h2 {
-  font-family: helvetica;
-}
-
-h3 {
-  font-family: helvetica;
-}
-
-p {
-  font-family: helvetica;
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  text-transform: capitalize;
 }
 
 a {
