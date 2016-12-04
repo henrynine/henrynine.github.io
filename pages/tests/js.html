@@ -11,10 +11,15 @@
 
 <body>
 
+  <h1>Old Heading</h1>
+
   <p>testing</p>
 
   <script>
     alert('Hello world');
+    var newHeading = prompt('What should the new heading be?');
+    var heading = document.querySelector('h1');
+    heading.textContent = newHeading;
   </script>
 
 </body>
