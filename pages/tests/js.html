@@ -16,10 +16,11 @@
   <p>testing</p>
 
   <script>
-    alert('Hello world');
-    var newHeading = prompt('What should the new heading be?');
+    var newHeading = prompt('What should the click alert be?');
     var heading = document.querySelector('h1');
-    heading.textContent = newHeading;
+    heading.onclick = function() {
+      heading.textContent = newHeading
+    }
   </script>
 
 </body>
