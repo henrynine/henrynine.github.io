@@ -1,6 +1,14 @@
+html {
+  background-color: white
+}
+
 body {
+  width: 800px;
+  margin: 0 auto;
   background-color: rgba(204, 76, 49, 0.94);
-  font-family: helvetica, arial;
+  font-family: helvetica;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
 
 h1 {
