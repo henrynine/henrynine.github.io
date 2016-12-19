@@ -1,24 +1,65 @@
-html {
-  background-color: white
+p {
+  font-family: Arial;
+  margin: 15px auto;
+  font-size: 1.4em;
 }
-
-body {
-  width: 800px;
-  margin: 0 auto;
-  background-color: rgba(204, 76, 49, 0.94);
-  font-family: helvetica;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+.slider > p {
+  float: left;
 }
-
-h1 {
+input {
+  float: right;
+}
+button {
+  border: 0px;
+  background-color: gray;
+  height: 50px;
+  width: 100px;
+}
+.row {
+  display: block;
+}
+.square {
+  color: white;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 2px;
   text-align: center;
-  font-size: 2em;
-  letter-spacing: 0.5em;
-  text-transform: capitalize;
+  margin: 15px auto;
 }
-
-a {
-  color: rgb(218, 194, 34);
-  text-decoration: none;
+.slider {
+  height: 40px;
+  margin-right: 10px;
+}
+#wrapper {
+  width: 960px;
+  height: 960px;
+  border: 1px solid black;
+  float: left;
+}
+#sizeOptions {
+  float: left;
+  background-color: lightgray;
+  text-align: center;
+  width: 250px;
+  height: 85px;
+  border: 1px solid black;
+  margin: 10px;
+}
+#make {
+  float: left;
+  margin-left: 10px;
+}
+#clear {
+  float: right;
+  margin-right: 10px;
+}
+#height {
+  margin-top: 13px;
 }
